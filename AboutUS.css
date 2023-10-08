@@ -1,0 +1,54 @@
+/* Add your custom styles for the About Us page here */
+
+
+.container {
+    padding: 40px;
+    background-color: darkcyan; 
+  }
+  .custom-heading {
+    font-style: italic;
+    color: peachpuff;
+  }
+  
+  
+  /* Center the team member cards */
+  .card {
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  /* Add hover effect to cards */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the team member names */
+  .card-title {
+    font-size: 24px;
+    color: gold;
+  }
+  
+  /* Style the team member roles */
+  .card-subtitle {
+    color: #777;
+    
+  }
+  
+  /* Style the team member bios */
+  .card-text {
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  /* Adjust spacing for mobile devices */
+  @media (max-width: 768px) {
+    .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  
